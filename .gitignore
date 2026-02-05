@@ -1,0 +1,87 @@
+# Credentials and API Keys
+*.env
+*.env.local
+*.env.production
+.env
+.env.local
+.env.production.local
+credentials.json
+secrets.json
+api-keys.txt
+*-credentials.json
+*-secrets.json
+
+# n8n specific
+n8n-credentials.json
+workflow-credentials.json
+.n8n/
+n8n.db
+n8n.db.sqlite
+
+# Salesforce credentials
+sfdx-config.json
+.sfdx/
+.sf/
+*.pem
+server.key
+jwt-key.json
+connected-app-*.json
+
+# Jira credentials
+jira-token.txt
+jira-credentials.json
+
+# Anthropic/Claude API
+anthropic-api-key.txt
+claude-credentials.json
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Thumbnails
+Thumbs.db
+
+# Node modules (if using any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Claude Code
+.claude/
+.clauderc.local
+
+# Sensitive documentation (if any)
+PRIVATE-*.md
+*-PRIVATE.md
+credentials-*.md
+
+# Backup files
+*.backup
+backup/
+backups/
+
+# Test data with real credentials
+test-data-real.json
+production-config.json
