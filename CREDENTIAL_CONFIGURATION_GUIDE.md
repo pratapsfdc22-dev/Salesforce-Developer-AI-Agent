@@ -39,9 +39,9 @@ This guide walks you through configuring all credentials needed for the autonomo
 
 **Basic Information**:
 ```
-Connected App Name: n8n SF Agent Integration
-API Name: n8n_SF_Agent_Integration (auto-populated)
-Contact Email: pratap.pattanayak@gmail.com
+Connected App Name: XXXXXXXXXXXXXX
+API Name: XXXXXXXXXXXXXX (auto-populated)
+Contact Email: xyz@xyz.com
 Description: Allows n8n to deploy Salesforce metadata via Tooling API
 ```
 
