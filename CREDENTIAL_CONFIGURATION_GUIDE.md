@@ -49,7 +49,7 @@ Description: Allows n8n to deploy Salesforce metadata via Tooling API
 - ✅ Check **Enable OAuth Settings**
 - **Callback URL**:
   ```
-  https://pratapkp.app.n8n.cloud/rest/oauth2-credential/callback
+  https://XXXXXXXXX.app.n8n.cloud/rest/oauth2-credential/callback
   ```
 - **Selected OAuth Scopes** (Add these 4 scopes):
   - ✅ **Access and manage your data (api)**
