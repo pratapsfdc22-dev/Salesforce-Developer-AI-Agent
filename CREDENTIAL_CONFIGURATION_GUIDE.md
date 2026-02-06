@@ -5,7 +5,7 @@
 This guide walks you through configuring all credentials needed for the autonomous AI Salesforce developer agent to work in your n8n cloud instance.
 
 **Time Required**: 30-45 minutes
-**n8n Instance**: https://pratapkp.app.n8n.cloud
+**n8n Instance**: https://yourinstance.app.n8n.cloud
 
 ---
 
