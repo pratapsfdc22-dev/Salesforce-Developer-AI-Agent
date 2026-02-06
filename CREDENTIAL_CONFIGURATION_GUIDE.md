@@ -25,9 +25,9 @@ This guide walks you through configuring all credentials needed for the autonomo
 ### Step 1: Create Salesforce Connected App
 
 1. **Log into Salesforce**:
-   - Go to: https://westsideconsulting-dev-ed.my.salesforce.com
-   - Login as: pratap.pattanayak@gmail.com
-
+   - Go to: your salesforce instance
+   - Login as: your salesforce id
+     
 2. **Navigate to App Manager**:
    - Click ⚙️ (gear icon) → **Setup**
    - In Quick Find box, type: `App Manager`
