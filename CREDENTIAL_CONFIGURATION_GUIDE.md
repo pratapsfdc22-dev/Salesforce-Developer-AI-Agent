@@ -82,7 +82,7 @@ Description: Allows n8n to deploy Salesforce metadata via Tooling API
 ### Step 2: Configure Credential in n8n
 
 1. **Open n8n**:
-   - Go to: https://pratapkp.app.n8n.cloud
+   - Go to: https://YOURINSTANCE.app.n8n.cloud
    - Click **Settings** (left sidebar) → **Credentials**
 
 2. **Add New Credential**:
@@ -94,8 +94,7 @@ Description: Allows n8n to deploy Salesforce metadata via Tooling API
 
 **Credential Name**:
 ```
-Salesforce - westsideconsulting
-```
+Salesforce - YOURINSTANCENAME........
 
 **Environment**:
 - Select: **Production** (or "Sandbox" if you want to test in sandbox first)
@@ -109,13 +108,13 @@ Salesforce - westsideconsulting
 
 **Salesforce Instance**:
 ```
-https://westsideconsulting-dev-ed.my.salesforce.com
+https://YOURSALESFORCEINSTANCE-dev-ed.my.salesforce.com
 ```
 
 4. **Authorize**:
    - Click **Connect my account** (or **Sign in with Salesforce**)
    - You'll be redirected to Salesforce login
-   - Login as: pratap.pattanayak@gmail.com
+   - Login as: YOUR SALESFORCE ID
    - Click **Allow** on the OAuth consent screen
    - You'll be redirected back to n8n
 
@@ -127,14 +126,14 @@ https://westsideconsulting-dev-ed.my.salesforce.com
 
 1. **Open Workflow 3**:
    - In n8n, go to **Workflows** (left sidebar)
-   - Click on **SF Agent 3 - Execute Changes** (ID: QjoWn0koYUvNNMC1)
+   - Click on **SF Agent 3 - Execute Changes** (ID: XXXXXXXXXX)
 
 2. **Configure "Deploy via Tooling API" Node**:
    - Click on the **"Deploy via Tooling API"** node
    - In the node settings panel:
      - **Authentication**: Should show **Predefined Credential Type**
      - **Credential Type**: Should show **Salesforce OAuth2 API**
-     - **Credential for Salesforce OAuth2 API**: Select **Salesforce - westsideconsulting**
+     - **Credential for Salesforce OAuth2 API**: Select **Salesforce - YOURINSTANCE**
    - The node should now show a green checkmark (no errors)
 
 3. **Save Workflow**:
@@ -148,8 +147,8 @@ https://westsideconsulting-dev-ed.my.salesforce.com
 
 You've already provided the Jira API token:
 ```
-Email: pratap.pattanayak@gmail.com
-Domain: pratappattanayak.atlassian.net
+Email: YOUR JIRA ID
+Domain: YOURJIRAINSTANCE.atlassian.net
 API Token: YOUR_JIRA_API_TOKEN_HERE (Get from https://id.atlassian.com/manage-profile/security/api-tokens)
 ```
 
@@ -163,7 +162,7 @@ API Token: YOUR_JIRA_API_TOKEN_HERE (Get from https://id.atlassian.com/manage-pr
 ### Step 2: Configure Credential in n8n
 
 1. **Open n8n**:
-   - Go to: https://pratapkp.app.n8n.cloud
+   - Go to: https://YOURINSTANCE.app.n8n.cloud
    - Click **Settings** → **Credentials**
 
 2. **Add New Credential**:
@@ -175,7 +174,7 @@ API Token: YOUR_JIRA_API_TOKEN_HERE (Get from https://id.atlassian.com/manage-pr
 
 **Credential Name**:
 ```
-Jira - pratappattanayak
+Jira - INSTANCE NAME
 ```
 
 **Authentication Method**:
@@ -183,9 +182,9 @@ Jira - pratappattanayak
 
 **Configuration**:
 ```
-Email: pratap.pattanayak@gmail.com
+Email: XXXX@gmail.com
 API Token: YOUR_JIRA_API_TOKEN_HERE (Get from https://id.atlassian.com/manage-profile/security/api-tokens)
-Jira Domain: pratappattanayak.atlassian.net
+Jira Domain: YOURINSTANCE.atlassian.net
 ```
 
 4. **Test Credential** (Optional but recommended):
@@ -199,39 +198,39 @@ Jira Domain: pratappattanayak.atlassian.net
 
 #### Workflow 1: SF Agent 1 - Initial Analysis
 
-1. Open workflow (ID: 2A6XqlHc9b48hjd6)
+1. Open workflow (ID: XXXXXXXX)
 2. Update these Jira nodes:
-   - **Jira Trigger - New SF Story**: Select credential `Jira - pratappattanayak`
-   - **Jira - Get Issue Details**: Select credential `Jira - pratappattanayak`
-   - **Jira - Post Questions Comment**: Select credential `Jira - pratappattanayak`
-   - **Jira - Add Awaiting Response Label**: Select credential `Jira - pratappattanayak`
-   - **Jira - Ready Comment**: Select credential `Jira - pratappattanayak`
-   - **Jira - Add Ready Label**: Select credential `Jira - pratappattanayak`
+   - **Jira Trigger - New SF Story**: Select credential `Jira - INSTANCE NAME`
+   - **Jira - Get Issue Details**: Select credential `Jira - INSTANCE NAME`
+   - **Jira - Post Questions Comment**: Select credential `Jira - INSTANCE NAME`
+   - **Jira - Add Awaiting Response Label**: Select credential `Jira - INSTANCE NAME`
+   - **Jira - Ready Comment**: Select credential `Jira - INSTANCE NAME`
+   - **Jira - Add Ready Label**: Select credential `Jira - INSTANCE NAME`
 3. Save workflow
 
 #### Workflow 2: SF Agent 2 - Answer Processing
 
-1. Open workflow (ID: Xa6YL7mUW7KB9efA)
+1. Open workflow (ID: XXXXXXXXX)
 2. Update these Jira nodes:
-   - **Jira - Get Issue**: Select credential `Jira - pratappattanayak`
-   - **Jira - Get Comments**: Select credential `Jira - pratappattanayak`
-   - **Jira - More Questions Comment**: Select credential `Jira - pratappattanayak`
-   - **Jira - Execute Comment**: Select credential `Jira - pratappattanayak`
-   - **Jira - Remove Awaiting Label**: Select credential `Jira - pratappattanayak`
-   - **Jira - Add Ready Label**: Select credential `Jira - pratappattanayak`
+   - **Jira - Get Issue**: Select credential `[Jira - INSTANCE NAME)`
+   - **Jira - Get Comments**: Select credential `Jira - INSTANCE NAME`
+   - **Jira - More Questions Comment**: Select credential `Jira - INSTANCE NAME`
+   - **Jira - Execute Comment**: Select credential `Jira - INSTANCE NAME`
+   - **Jira - Remove Awaiting Label**: Select credential `Jira - INSTANCE NAME`
+   - **Jira - Add Ready Label**: Select credential `Jira - INSTANCE NAME`
 3. Save workflow
 
 #### Workflow 3: SF Agent 3 - Execute Changes
 
-1. Open workflow (ID: QjoWn0koYUvNNMC1)
+1. Open workflow (ID: XXXXXXXX)
 2. Update these Jira nodes:
-   - **Jira - Get Issue**: Select credential `Jira - pratappattanayak`
-   - **Jira - Starting Comment**: Select credential `Jira - pratappattanayak`
-   - **Jira - Update to In Progress**: Select credential `Jira - pratappattanayak`
-   - **Jira - Success Comment**: Select credential `Jira - pratappattanayak`
-   - **Jira - Mark Done**: Select credential `Jira - pratappattanayak`
-   - **Jira - Transition to Done**: Select credential `Jira - pratappattanayak`
-   - **Jira - Validation Error Comment**: Select credential `Jira - pratappattanayak`
+   - **Jira - Get Issue**: Select credential `Jira - INSTANCE NAME`
+   - **Jira - Starting Comment**: Select credential `Jira - INSTANCE NAME`
+   - **Jira - Update to In Progress**: Select credential `Jira - INSTANCE NAME`
+   - **Jira - Success Comment**: Select credential `Jira - INSTANCE NAME`
+   - **Jira - Mark Done**: Select credential `Jira - INSTANCE NAME`
+   - **Jira - Transition to Done**: Select credential `Jira - INSTANCE NAME`
+   - **Jira - Validation Error Comment**: Select credential `Jira - INSTANCE NAME`
 3. Save workflow
 
 ---
@@ -257,7 +256,7 @@ Jira Domain: pratappattanayak.atlassian.net
 ### Step 2: Configure Credential in n8n
 
 1. **Open n8n**:
-   - Go to: https://pratapkp.app.n8n.cloud
+   - Go to: https://yourinstance.app.n8n.cloud
    - Click **Settings** → **Credentials**
 
 2. **Add New Credential**:
@@ -286,7 +285,7 @@ The Claude AI nodes in all 3 workflows use HTTP Request nodes that call the Anth
 
 #### Workflow 1: SF Agent 1 - Initial Analysis
 
-1. Open workflow (ID: 2A6XqlHc9b48hjd6)
+1. Open workflow 
 2. Click on **"Claude - Analyze Requirement"** node
 3. In **Headers** section:
    - Find the header: `x-api-key`
@@ -299,14 +298,14 @@ The Claude AI nodes in all 3 workflows use HTTP Request nodes that call the Anth
 
 #### Workflow 2: SF Agent 2 - Answer Processing
 
-1. Open workflow (ID: Xa6YL7mUW7KB9efA)
+1. Open workflow 
 2. Click on **"Claude - Re-analyze with Answers"** node
 3. Update the `x-api-key` header (same as Workflow 1)
 4. Save workflow
 
 #### Workflow 3: SF Agent 3 - Execute Changes
 
-1. Open workflow (ID: QjoWn0koYUvNNMC1)
+1. Open workflow 
 2. Click on **"Claude - Generate Metadata"** node
 3. Update the `x-api-key` header (same as Workflow 1)
 4. Save workflow
@@ -338,13 +337,13 @@ Instead of referencing credentials in HTTP nodes, let's update the nodes to use 
    - You should see: **Production URL**
    - Copy the URL (should be):
      ```
-     https://pratapkp.app.n8n.cloud/webhook/sf-agent-comment
+     https://yourinstance.app.n8n.cloud/webhook/sf-agent-comment
      ```
 
 ### Step 2: Configure Webhook in Jira
 
 1. **Go to Jira Settings**:
-   - Visit: https://pratappattanayak.atlassian.net
+   - Visit: https://yourinstance.atlassian.net
    - Click ⚙️ **Settings** (top right) → **System**
 
 2. **Navigate to WebHooks**:
@@ -366,7 +365,7 @@ n8n SF Agent Comment Webhook
 
 **URL**:
 ```
-https://pratapkp.app.n8n.cloud/webhook/sf-agent-comment
+https://yourinstance.app.n8n.cloud/webhook/sf-agent-comment
 ```
 
 **Description**:
@@ -456,7 +455,7 @@ This ensures webhook only fires for issues waiting for answers.
 ### Test 1: Test Jira Connection
 
 1. **Create Test Issue**:
-   - Go to: https://pratappattanayak.atlassian.net
+   - Go to: https://yourinstance.atlassian.net
    - Create new **Story**:
      - **Summary**: Test - Simple field
      - **Description**: Add text field named Test_Field__c to Account
@@ -531,7 +530,7 @@ This ensures webhook only fires for issues waiting for answers.
    - Email in credential must match the account that created the API token
 
 3. Verify domain format:
-   - Should be: `pratappattanayak.atlassian.net` (no `https://`)
+   - Should be: `yourinstance.atlassian.net` (no `https://`)
 
 ### Issue: Anthropic API "Invalid API Key"
 
@@ -600,23 +599,17 @@ Once all credentials are configured and verified:
 
 | Credential | Name in n8n | Purpose |
 |------------|-------------|---------|
-| Salesforce OAuth2 | `Salesforce - westsideconsulting` | Tooling API deployment |
-| Jira Software Cloud | `Jira - pratappattanayak` | Issue management |
+| Salesforce OAuth2 | `Syourinstance` | Tooling API deployment |
+| Jira Software Cloud | `Jira - yourinstance` | Issue management |
 | Anthropic API | `Anthropic - Main` | Claude AI analysis |
 
 ### URLs
 
-- **n8n Instance**: https://pratapkp.app.n8n.cloud
-- **Salesforce Org**: https://westsideconsulting-dev-ed.my.salesforce.com
-- **Jira Instance**: https://pratappattanayak.atlassian.net
+- **n8n Instance**: https://yourinstance.app.n8n.cloud
+- **Salesforce Org**: https://yoursfinstance-dev-ed.my.salesforce.com
+- **Jira Instance**: https://yourinstance.atlassian.net
 - **Anthropic Console**: https://console.anthropic.com
-- **Workflow 2 Webhook**: https://pratapkp.app.n8n.cloud/webhook/sf-agent-comment
-
-### Workflow IDs
-
-- **Workflow 1**: `2A6XqlHc9b48hjd6` (Initial Analysis)
-- **Workflow 2**: `Xa6YL7mUW7KB9efA` (Answer Processing)
-- **Workflow 3**: `QjoWn0koYUvNNMC1` (Execute Changes)
+- **Workflow 2 Webhook**: https://yourinstance.app.n8n.cloud/webhook/sf-agent-comment
 
 ---
 
