@@ -16,9 +16,9 @@ All 3 n8n workflows have been created in your instance at https://pratapkp.app.n
 
 | Workflow | ID | Nodes | Status |
 |----------|-----|-------|--------|
-| **SF Agent 1 - Initial Analysis** | `2A6XqlHc9b48hjd6` | 9 | ✅ Built |
-| **SF Agent 2 - Answer Processing** | `Xa6YL7mUW7KB9efA` | 12 | ✅ Built |
-| **SF Agent 3 - Execute Changes** | `QjoWn0koYUvNNMC1` | 16 | ✅ Built (Updated for Tooling API) |
+| **SF Agent 1 - Initial Analysis** | `xxxxxxxxx` | 9 | ✅ Built |
+| **SF Agent 2 - Answer Processing** | `xxxxxxxxx` | 12 | ✅ Built |
+| **SF Agent 3 - Execute Changes** | `xxxxxxxxxxx` | 16 | ✅ Built (Updated for Tooling API) |
 
 ### Workflow Features Implemented
 
@@ -326,19 +326,6 @@ The implementation is successful when:
    - Complete technical details
    - Code examples
    - API reference
-
-### Quick Links
-
-- **n8n Instance**: https://pratapkp.app.n8n.cloud
-- **Salesforce Org**: https://westsideconsulting-dev-ed.my.salesforce.com
-- **Jira Instance**: https://pratappattanayak.atlassian.net
-- **Anthropic Console**: https://console.anthropic.com
-
-### Workflow IDs
-
-- **Workflow 1 (Initial Analysis)**: `2A6XqlHc9b48hjd6`
-- **Workflow 2 (Answer Processing)**: `Xa6YL7mUW7KB9efA`
-- **Workflow 3 (Execute Changes)**: `QjoWn0koYUvNNMC1`
 
 ---
 
