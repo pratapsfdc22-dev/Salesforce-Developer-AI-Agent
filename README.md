@@ -289,7 +289,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Pratap Kumar Pattanayak**
 - Email: pratap.pattanayak@gmail.com
-- GitHub: [(https://github.com/pratapsfdc22)]
+- GitHub: [[(https://github.com/pratapsfdc22)](https://github.com/pratapsfdc22-dev?tab=repositories)]
 - LinkedIn: [/in/pratappattanayak](https://linkedin.com/in/pratappattanayak)
 
 ## ⭐ Star This Repository
