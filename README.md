@@ -2,6 +2,8 @@
 
 An intelligent n8n-powered automation system that reads Salesforce configuration requirements from Jira Stories, asks clarifying questions using Claude AI, and automatically deploys configurations to Salesforce via the Tooling API.
 
+#Demo: [(https://www.loom.com/share/df5c5fc89ae54b5ba859b2df9bbde4d3)]
+
 ## 🎯 Project Overview
 
 This project eliminates manual Salesforce configuration work by creating an autonomous AI agent that:
