@@ -58,7 +58,7 @@ Before starting, verify you have:
 - [ ] **2.1** Verify you have Jira API token:
   ```
   Email: your-email@example.com
-  API Token: YOUR_JIRA_API_TOKEN_HERE
+  API Token: YOUR_JIRA_API_TOKEN_HERE (Get from https://id.atlassian.com/manage-profile/security/api-tokens)
   Domain: <your-domain>.atlassian.net
   ```
 - [ ] **2.2** Go to n8n → Settings → Credentials

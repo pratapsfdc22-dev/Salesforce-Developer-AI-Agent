@@ -150,7 +150,7 @@ You've already provided the Jira API token:
 ```
 Email: your-email@example.com
 Domain: <your-domain>.atlassian.net
-API Token: YOUR_JIRA_API_TOKEN_HERE
+API Token: YOUR_JIRA_API_TOKEN_HERE (Get from https://id.atlassian.com/manage-profile/security/api-tokens)
 ```
 
 **If you need to generate a new token**:
@@ -184,7 +184,7 @@ Jira - your-jira-credential
 **Configuration**:
 ```
 Email: your-email@example.com
-API Token: YOUR_JIRA_API_TOKEN_HERE
+API Token: YOUR_JIRA_API_TOKEN_HERE (Get from https://id.atlassian.com/manage-profile/security/api-tokens)
 Jira Domain: <your-domain>.atlassian.net
 ```
 

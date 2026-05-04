@@ -20,7 +20,7 @@ Three n8n workflows have been created in your instance at `https://<your-n8n-ins
 4. Configure:
    - **Credential Name**: `jira-credential` (or any name)
    - **Email**: `your-email@example.com`
-   - **API Token**: `YOUR_JIRA_API_TOKEN_HERE`
+   - **API Token**: `YOUR_JIRA_API_TOKEN_HERE` (Get from https://id.atlassian.com/manage-profile/security/api-tokens)
    - **Domain**: `<your-domain>.atlassian.net`
 5. Test and save
 

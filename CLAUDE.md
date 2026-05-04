@@ -360,7 +360,7 @@ Webhook → Salesforce (get account) → Code (validate) → IF (invalid) → Sa
 **Current Authentication:**
 - ✅ Authenticated to <your-org>.my.salesforce.com
 - ✅ User: your-email@example.com
-- ✅ Org ID: <YOUR_ORG_ID>
+- ✅ Org ID: (run `sf org display` to retrieve)
 - ✅ API Version: 64.0
 
 **Quick Commands:**
